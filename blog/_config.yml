@@ -71,15 +71,9 @@ pagination_dir: page
 
 # Extensions
 # RSS订阅
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
+
 ## Plugins: https://hexo.io/plugins/
+plugins: hexo-generate-feed
 ## Themes: https://hexo.io/themes/
 #theme: next
 theme: next
